@@ -10,12 +10,6 @@
 
 
 }
-.top{
-  background-color: #ab32e7;
-}
-.bottom{
-  background-color: #dd3170;
-}
 
 .content{
   display:flex;
@@ -23,13 +17,13 @@
  
 }
 .menu{
-  flex: 15%;
-  background-color: #3a7cdf;
+  flex: 30%;
+
 }
 .main{
   display: flex;
-  flex:85%;
-  background-color: #32b1e7;
+  flex:80%;
+
   align-items: center;
   justify-content: center;
   
