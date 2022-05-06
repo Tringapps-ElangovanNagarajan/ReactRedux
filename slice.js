@@ -2,10 +2,10 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 export const userSlice = createSlice({
-  name: "name",
+  name: "Name",
   initialState: {
-    head: "Welcome",
-    foot: "Thank You"
+    head: "Header",
+    foot: "Footer"
   },
   reducers: {
     change: (state, action) => {
