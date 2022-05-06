@@ -17,10 +17,9 @@ export default function Main() {
         <input
           type="text"
           placeholder="Enter any value"
-          onChange={(e) => setName(e.target.value)}
-        />
-        <br />
-        <br />
+          onChange={(e) => setName(e.target.value)}/>
+        <br/>
+        <br/>
         <button type="submit">Submit</button>
       </form>
     </div>
