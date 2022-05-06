@@ -13,10 +13,10 @@ export default function Main() {
   return (
     <div className="main">
       <form onSubmit={handleUpdate}>
-        <label>Enter your Username : </label>
+        <label>Enter your value here : </label>
         <input
           type="text"
-          placeholder="Enter your name"
+          placeholder="Enter any value"
           onChange={(e) => setName(e.target.value)}
         />
         <br />
