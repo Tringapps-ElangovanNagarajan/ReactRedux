@@ -1,0 +1,36 @@
+.App{
+  align-items: center;
+}
+.rootContent{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  text-align: center;
+
+
+
+}
+.top{
+  background-color: #ab32e7;
+}
+.bottom{
+  background-color: #dd3170;
+}
+
+.content{
+  display:flex;
+  flex-direction: row;
+ 
+}
+.menu{
+  flex: 15%;
+  background-color: #3a7cdf;
+}
+.main{
+  display: flex;
+  flex:85%;
+  background-color: #32b1e7;
+  align-items: center;
+  justify-content: center;
+  
+}
